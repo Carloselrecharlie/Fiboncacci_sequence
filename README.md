@@ -1,2 +1,2 @@
-# Fiboncacci_sequence
-Game that relates surnames with the old sequence
+# First_Python_programs
+A few mathematical excercises to get started
