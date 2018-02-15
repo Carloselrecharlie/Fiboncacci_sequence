@@ -1,22 +1,24 @@
 # Carlos Montes
-# In the Collatz conjecture even numbers are divided by 2 and odds multiplied by 3, then +1
+# Even numbers are divided by 2 and odds multiplied by 3 then +1
 
-n = 17
+n = input("Choose a natural integer greater than 1 to execute the Collatz conjecture please ") #Prompt
 
-print (n)
+myInput = int(n) #To turn the user input string into an integer
+
+print (myInput)
 
 count = 0 # The counter of the number of times the while loop runs starts
 
-while n > 1 : 
+while myInput > 1 : 
     count += 1 # Increments by 1 every time it loops
-    if (n % 2 == 0) : 
-        e = n / 2
+    if (myInput % 2 == 0) : 
+        e = myInput / 2
         print ( int (e) ) # with int we take only the integer part
-        n = e
+        myInput = e
     else:
-        o = n * 3 + 1
+        o = myInput * 3 + 1
         print ( int (o) )
-        n = o
+        myInput = o
 
 print("It took" ,count, "iterations to reach number 1") # commas are requiered to separate text 
 # from strings while printing. They also add a single space.
