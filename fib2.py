@@ -25,4 +25,14 @@ print("The first letter", first, "is number", firstno)
 print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
 
+# SOLUTION
 
+# My surname is Montes
+
+# The first letter M is number 77
+
+# The last letter s is number 115
+
+# Fibonacci number 192 is 5972304273877744135569338397692020533504 
+
+# ord () is a python built-in function which returns the Unicode value linked to a one-character string. It's the opposite of chr() or unichr()
